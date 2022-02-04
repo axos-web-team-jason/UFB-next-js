@@ -1,4 +1,5 @@
 import styles from "./tertiaryblock.module.css";
+import Link from "next/link";
 
 export default function TertiaryBlock({ ...data }) {
   const { preHeader, mainHeader, copy, linkText, color } = data;
@@ -94,9 +95,9 @@ export default function TertiaryBlock({ ...data }) {
         <p>{copy}</p>
       </div> */}
       <div className={arrowColor(color)}>
-        <a href="#" className={linkColor(color)}>
-          {linkText}
-        </a>
+        <Link href="/">
+          <a className={linkColor(color)}>{linkText}</a>
+        </Link>
       </div>
     </div>
   );

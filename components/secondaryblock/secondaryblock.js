@@ -1,4 +1,5 @@
 import styles from "./secondaryblock.module.css";
+import Link from "next/link";
 
 export default function SecondaryBlock({ ...data }) {
   const { preHeader, mainHeader, copy, linkText, buttonText, color } = data; // Props
@@ -78,16 +79,24 @@ export default function SecondaryBlock({ ...data }) {
         </p>
       </div>
       <div className={`${styles.container} ${styles.linkContainer}`}>
-        <a href="#">{linkText}</a>
-        <a href="#">{linkText}</a>
+        <Link href="/">
+          <a>{linkText}</a>
+        </Link>
+        <Link href="/">
+          <a>{linkText}</a>
+        </Link>
       </div>
       <div className={buttonColor(color)}>
         <div className={styles.buttonWrapper}>
-          <button>{buttonText}</button>
+          <Link href="/" passHref>
+            <button>{buttonText}</button>
+          </Link>
         </div>
-        <a href="#" className={`${styles.container} ${styles.linkContainer}`}>
-          {linkText}
-        </a>
+        <Link href="/">
+          <a className={`${styles.container} ${styles.linkContainer}`}>
+            {linkText}
+          </a>
+        </Link>
       </div>
     </div>
   );
