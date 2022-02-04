@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: row;
   margin: 24px;
+  justify-content: center;
 }
 
 .secondaryBlockTest > * {
   margin: 24px 24px 0 0;
 }
 
-.secondaryBlockTest > div:nth-child(1) {
-  margin: 24px 24px 0 0;
+.secondaryBlockTest > div:nth-child(3) {
+  margin: 24px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
