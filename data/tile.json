@@ -1,0 +1,26 @@
+{
+  "tile1": {
+    "color": "primaryStyle",
+    "preHeader": "UFB Blogs",
+    "mainHeader": "How We Protect You",
+    "copy": "Your security is our highest priority. Learn more about the security practices we use to keep your accounts safe.",
+    "linkText": "Learn More",
+    "buttonText": "Begin Application"
+  },
+  "tile2": {
+    "color": "lightStyle",
+    "preHeader": "UFB Blogs",
+    "mainHeader": "Tips For Preventing Identity Theft",
+    "copy": "Learn practical strategies for protecting your identity and your data.",
+    "linkText": "Learn More",
+    "buttonText": "Begin Application"
+  },
+  "tile3": {
+    "color": "darkStyle",
+    "preHeader": "UFB Blogs",
+    "mainHeader": "Security Steps You Can Take",
+    "copy": "Learn how to create strong passwords, spot fraud, and keep your accounts secure.",
+    "linkText": "Learn More",
+    "buttonText": "Begin Application"
+  }
+}

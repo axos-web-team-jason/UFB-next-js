@@ -1,0 +1,24 @@
+.tertiaryBlockTest {
+  display: flex;
+  flex-direction: row;
+  margin: 24px;
+}
+
+.tertiaryBlockTest > * {
+  margin: 24px 24px 0 0;
+}
+
+.tertiaryBlockTest > div:nth-child(1) {
+  margin: 24px 24px 0 0;
+}
+
+h1 {
+  margin: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .tertiaryBlockTest {
+    flex-direction: column;
+    align-items: center;
+  }
+}

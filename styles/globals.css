@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;600&display=swap");
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,40 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.lightBlock {
+  /* background: linear-gradient(
+      47.5deg,
+      #051a3f 0%,
+      #1e3860 52.51%,
+      #4d85b0 100%
+    ); */
+  background: var(--ufb-light);
+}
+
+.darkBlock {
+  /* background: linear-gradient(
+      47.5deg,
+      #051a3f 0%,
+      #1e3860 52.51%,
+      #4d85b0 100%
+    ); */
+  background: var(--ufb-dark);
+}
+
+.secondaryText {
+  background: var(--ufb-bg);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lightText {
+  background: var(--ufb-white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whiteCopy > p {
+  color: var(--ufb-white);
 }

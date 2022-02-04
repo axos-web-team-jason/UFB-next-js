@@ -1,0 +1,12 @@
+:root {
+  --ufb-bg: #e18357; /* Button Background */
+  --ufb-primary: #f4f4f4;
+  --ufb-light: #ffffff;
+  --ufb-dark: #323339; /* Text */
+  --ufb-secondary: #aa9377; /* Links */
+
+  /*-----------------------*/
+  --ufb-text: #323339;
+  --ufb-btn-bg: #e18357;
+  --ufb-white: #ffffff;
+}
